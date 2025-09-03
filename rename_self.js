@@ -111,8 +111,8 @@ const rurekey = {
   波斯尼亚和黑塞哥维那: /波黑共和国/g,
   印尼: /印度尼西亚|雅加达/g,
   印度: /孟买/g,
-  阿联酋: /迪拜|阿拉伯联合酋长国/g,
-  沙特阿拉伯: /沙特/g,
+  阿联酋: /(阿联酋|迪拜|阿拉伯联合酋长国|UAE|United\s*Arab\s*Emirates|Dubai)/gi,
+  沙特阿拉伯: /(沙特|沙特阿拉伯|Saudi\s*Arabia|SaudiArabia|KSA|\bSTC\b)/gi,
   孟加拉国: /孟加拉/g,
   捷克: /捷克共和国/g,
 
